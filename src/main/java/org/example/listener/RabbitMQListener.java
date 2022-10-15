@@ -1,7 +1,8 @@
-package org.example;
+package org.example.listener;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.example.model.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
